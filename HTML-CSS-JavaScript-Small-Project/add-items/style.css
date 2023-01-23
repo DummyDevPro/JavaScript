@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    padding: 1rem;
+}
+
+.form-input {
+    display: flex;
+    gap: .5rem;
+}
+
+.form-input>input {
+    font-size: large;
+    padding: .25rem;
+}
+
+.item-list {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    border: 1px solid rebeccapurple;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.item {
+    padding: .5rem;
+    border: 1px solid gray;
+    background-color: gainsboro;
+    border-radius: .25rem;
+}
+
+.error {
+    background-color: darkred;
+    font-size: small;
+    /* padding: .25rem; */
+    color: white;
+}

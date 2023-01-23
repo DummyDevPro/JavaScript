@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML | CSS | Javascript</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="title">
+            <h1>Currency</h1>
+        </div>
+
+        <div class="form-input">
+            <label for="">＄</label>
+            <input type="number" value="0" min="0" id="dollar-id">
+        </div>
+
+        <div class="form-input">
+            <label for="">円</label>
+            <input type="number" value="0" disabled id="yen-id">
+        </div>
+
+        <div class="form-input">
+            <input type="button" value="calculate" onclick="calculate()">
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

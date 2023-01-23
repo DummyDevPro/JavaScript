@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Currency Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-title">
+            <h1>Currency Calculator</h1>
+        </div>
+
+        <div class="container-body">
+            <div class="form-input">
+                <label for="">Dollar To</label>
+                <input type="number" name="" id="dollarId" value="0" min="0" oninput="calculateCurrency()">
+            </div>
+
+            <div class="form-input">
+                <label for="">Yen</label>
+                <input type="number" name="" id="yenId" value="0" disabled>
+            </div>
+
+            <div class="form-input">
+                <label for="">Nepal Rupee</label>
+                <input type="number" name="" id="rupeeId" value="0" disabled>
+            </div>
+
+            <div class="form-input">
+                <input type="button" value="Calculate" onclick="calculateCurrency()">
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
